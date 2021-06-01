@@ -1,0 +1,91 @@
+html, body {margin: 0;}
+.topnav {
+    background-color: #003651;
+overflow: hidden;
+border-radius: 5px;
+}
+.topnav a{
+float: left;
+text-align: center;
+color: #f2f2f2;
+padding: 14px 16px;
+font-size: 17px;
+text-decoration: none;
+}
+.topnav a:hover{
+    color:#111130;
+background-color: #ddd;
+}
+.head2{
+    height: 45px; 
+    width: 80%; 
+    background-color:#003651;
+    margin: 0% 10% 0% 10%;
+    border-radius: 3px;
+   }
+.maindiv{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.mainimg{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#para{
+    text-align: justify;
+}
+.paradiv{
+    color: white;
+    background-color: #111130;
+    padding: 1%;
+    margin-top: 10px;
+    border-radius: 15px 0px;
+    
+}
+.courseimg{
+    margin: 50px;
+    display: table;
+    box-sizing: border-box;
+    display: table-cell;
+    padding: 9px;
+}
+.crseimg{
+    width:100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+input[type='text']{
+    width: 250px;
+    height: 25px;
+}
+td{
+    width: 250px;
+}
+.footer{
+    position: fixed;
+    left: 10%;
+    bottom: 0;
+    width: 80%;
+    background-color: #c5eecb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.maindiv2{
+    display: grid;
+    grid-template-columns: auto auto auto;;
+}
+.div2item{
+    border: 0px solid rgba(0 0 0 0.8);
+    padding: 20px;
+    text-align: left;
+    color: rgb(39, 38, 38);
+    text-align: justify;
+}
+.div2item:hover{
+    background-color: rgb(235, 217, 217);
+}
+tr:hover{
+    background-color: rgb(179, 178, 178);
+}
+tr:nth-child(odd){
+    background-color: rgb(214, 211, 211);
+}

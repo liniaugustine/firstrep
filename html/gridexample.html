@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container div:nth-child(odd){
+            background-color: aqua;
+        }
+        .container div{
+            padding: 20px;
+            background-color: yellow;
+        }
+        .container{
+            display: grid;
+           /* grid-template-columns: 25% 50% 25%;*/
+           /* grid-column-gap: 10px;
+            grid-row-gap: 10px;*/
+            grid-template-columns: 2fr 4fr 1fr;
+            grid-gap: 10px;
+            /*grid-template-rows: 300px 300px;*/
+            grid-template-rows: minmax(3fr 5fr) 300px;
+        }
+        .box2{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus maiores veniam sint eius distinctio impedit aut recusandae in, iste perspiciatis voluptatibus, soluta eaque, accusamus sapiente? Dolorum est tempore eum beatae.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus maiores veniam sint eius distinctio impedit aut recusandae in, iste perspiciatis voluptatibus, soluta eaque, accusamus sapiente? Dolorum est tempore eum beatae.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus maiores veniam sint eius distinctio impedit aut recusandae in, iste perspiciatis voluptatibus, soluta eaque, accusamus sapiente? Dolorum est tempore eum beatae.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus maiores veniam sint eius distinctio impedit aut recusandae in, iste perspiciatis voluptatibus, soluta eaque, accusamus sapiente? Dolorum est tempore eum beatae.
+
+    </div>
+    <div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, dolores dolor optio quam sequi culpa numquam suscipit cumque et nobis adipisci eos magni quaerat at quis beatae harum, eum non?</div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum iusto fugit vitae, sequi temporibus quis ex, at laborum numquam quaerat natus itaque hic provident corrupti accusantium minus, pariatur rerum quam?</div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum tempore ex exercitationem vero corrupti dignissimos maxime iste. Unde hic adipisci quia impedit asperiores, soluta tempora sit deleniti accusantium reprehenderit dignissimos?</div>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quibusdam voluptatem dolore deleniti similique earum consectetur delectus tempore aspernatur harum! Id recusandae distinctio alias laborum veritatis in maiores soluta corporis!</div>
+</div>
+</body>
+</html>
